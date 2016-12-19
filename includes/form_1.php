@@ -8,7 +8,7 @@
 	$input_412 = $_POST['input_412'];
 	$textarea_2205 = $_POST['textarea_2205'];
 	
-	$to = 'receiver@yoursite.com'; // Email submissions are sent to this email
+	$to = 'pereiram13@students.ecu.edu'; // Email submissions are sent to this email
 
 	// Create email	
 	$email_subject = "Message from Ray.";
