@@ -753,6 +753,9 @@ a{
 .bg-ray{
 	background-image:url("img/ray.png");
 }
+.bg-ray{
+	background-image:url('img/ray.png');
+}
 
 
 
