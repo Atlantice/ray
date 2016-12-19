@@ -15,7 +15,7 @@
 	$email_body = "You have received a new message. \n\n".
 				  "Input_1157: $input_1157 \nInput_412: $input_412 \nTextarea_2205: $textarea_2205 \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
-	$headers .= "From: contact@yoursite.com\n";
+	$headers .= "From: pereiram13@students.ecu.edu\n";
 	$headers .= "Reply-To: $input_412";	
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message
