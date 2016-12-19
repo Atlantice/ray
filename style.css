@@ -204,13 +204,40 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Bloc text custom styling */
 
 #hero h1{
-	font-size: 59px;
 	font-weight: 100;
-	font-family: Josefin Sans;
+	font-family: 'Josefin Sans';
+	font-size: 63px;
 }
 #hero h3{
 	font-family: Lato;
+	font-weight: 300;
+	font-size: 32px;
+}
+#bloc-3 h1{
+	font-weight: 300;
+	font-family: Josefin Sans;
+}
+#bloc-5 h3{
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 21px;
+}
+#bloc-6 h1{
 	font-weight: 100;
+	font-family: Josefin Sans;
+}
+#bloc-8 h1{
+	font-family: Lato;
+	font-weight: 300;
+}
+#bloc-10 h1{
+	font-family: Josefin Sans;
+}
+#bloc-15 h1{
+	font-family: Josefin Sans;
+}
+#footer p{
+	font-size: 12px;
 }
 
 /* = NavBar
@@ -553,6 +580,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#000000;
 	font-weight:300;
 	font-family:"Lato";
+	background-color:rgba(0,0,0,0.0);
 }
 a{
 	font-family:"Lato";
@@ -648,11 +676,11 @@ a{
 .tc-white{
 	color:#ffffff!important;
 }
-.tc-onyx{
-	color:#0F0E0E!important;
-}
 .tc-tangelo{
 	color:#F95105!important;
+}
+.tc-onyx{
+	color:#0F0E0E!important;
 }
 /* Button colour styles */
 
@@ -679,6 +707,12 @@ a{
 }
 .ltc-dark-jungle-green:hover{
 	color:#202020!important;
+}
+.ltc-tangelo{
+	color:#F95105!important;
+}
+.ltc-tangelo:hover{
+	color:#c74104!important;
 }
 .ltc-amber-saeece{
 	color:#FA7701!important;
@@ -717,7 +751,7 @@ a{
 	background-image:url("img/ray.png");
 }
 .bg-ray{
-	background-image:url('img/ray.png');
+	background-image:url("img/ray.png");
 }
 
 
