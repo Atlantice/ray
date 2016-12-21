@@ -204,40 +204,65 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Bloc text custom styling */
 
 #hero h1{
+	font-size: 58px;
+}
+#hero h2{
 	font-weight: 100;
 	font-family: 'Josefin Sans';
-	font-size: 63px;
-}
-#hero h3{
-	font-family: Lato;
-	font-weight: 300;
-	font-size: 32px;
+	font-size: 48px;
 }
 #bloc-3 h1{
 	font-weight: 300;
 	font-family: Josefin Sans;
+}
+#bloc-4 p{
+	font-size: 19px;
 }
 #bloc-5 h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 21px;
 }
+#bloc-5 p{
+	font-size: 16px;
+}
 #bloc-6 h1{
 	font-weight: 100;
 	font-family: Josefin Sans;
 }
+#bloc-7 p{
+	font-size: 21px;
+}
 #bloc-8 h1{
 	font-family: Lato;
 	font-weight: 300;
+	font-size: 33px;
 }
-#bloc-10 h1{
+#bloc-8 h2{
+	font-size: 22px;
+}
+#bloc-8 h3{
+	font-size: 20px;
+}
+#bloc-9 h1{
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 33px;
+}
+#bloc-9 h2{
+	font-size: 22px;
+}
+#bloc-9 h3{
+	font-size: 20px;
+}
+#bloc-11 h1{
 	font-family: Josefin Sans;
 }
-#bloc-15 h1{
+#bloc-16 h1{
 	font-family: Josefin Sans;
 }
 #footer p{
-	font-size: 12px;
+	font-size: 14px;
 }
 
 /* = NavBar
@@ -533,8 +558,8 @@ iframe{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"helvetica";
-	font-weight:400;
+	font-family:"Lato";
+	font-weight:300;
 }
 .container{
 	max-width:1128px;
@@ -622,6 +647,7 @@ a{
 }
 .navigation{
 	text-transform:uppercase;
+	font-family:"Arvo";
 }
 .heading-4{
 	text-transform:uppercase;
@@ -682,6 +708,9 @@ a{
 .tc-onyx{
 	color:#0F0E0E!important;
 }
+.tc-magenta-process{
+	color:#EC068B!important;
+}
 /* Button colour styles */
 
 .btn-tangelo{
@@ -698,6 +727,14 @@ a{
 }
 .btn-amber-saeece:hover{
 	background:#c85f01;
+	color:#FFFFFF!important;
+}
+.btn-magenta-process{
+	background:#EC068B;
+	color:#FFFFFF!important;
+}
+.btn-magenta-process:hover{
+	background:#bd056f;
 	color:#FFFFFF!important;
 }
 /* Link colour styles */
@@ -754,7 +791,10 @@ a{
 	background-image:url("img/ray.png");
 }
 .bg-ray{
-	background-image:url('img/ray.png');
+	background-image:url("img/ray.png");
+}
+.bg-r{
+	background-image:url("img/r.png");
 }
 
 
