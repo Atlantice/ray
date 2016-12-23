@@ -16,28 +16,41 @@
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+<!-- 	<script src="./js/formHandler.js"></script> -->
     <title>Partners</title>
 
     
 <!-- Google Analytics -->
  
 <!-- Google Analytics END -->
-    
-</head>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/585b05fe7418a41587c19c3d/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+	
+	<!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('nkrc7ppa43zi');
 </script>
-<!--End of Tawk.to Script-->
+<!-- End of Async Drift Code -->
+	
+</head>
+
 <body>
 <!-- Main container -->
 <div class="page-container">
@@ -176,17 +189,20 @@ s0.parentNode.insertBefore(s1,s0);
 			<div class="col-sm-12 col-md-6 col-md-offset-3">
 				<form action="https://formspree.io/rayfounders@gmail.com"method="POST">
 					<div class="form-group">
-						<input class="form-control" required placeholder="NAME" id="pname" />
+						<input class="form-control" name="name" required placeholder="NAME" id="pname" />
 					</div>
 					<div class="form-group">
-						<input class="form-control" required placeholder="ORGANIZATION NAME" id="oname" />
+						<input class="form-control" name="orgname" required placeholder="ORGANIZATION NAME" id="oname" />
 					</div>
 					<div class="form-group">
-						<input class="form-control" required type="email" placeholder="EMAIL ADDRESS" id="pemail" />
+						<input class="form-control" name="email" required type="email" placeholder="EMAIL ADDRESS" id="pemail" />
 					</div>
 					<div class="form-group">
-						<textarea class="form-control" rows="4" cols="50" placeholder="COMMENTS" id="pmessage"></textarea>
-					</div> 
+						<textarea class="form-control" name="message" rows="4" cols="50" placeholder="COMMENTS" id="pmessage"></textarea>
+					</div>
+					<div class="form-group">
+						<input type="hidden" name="_next" value="contact.html" />
+					</div>
 					<button class="bloc-button btn btn-lg btn-block button btn-amber-saeece" type="submit">
 						Submit
 					</button>
