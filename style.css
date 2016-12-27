@@ -887,6 +887,9 @@ a{
 .bg-r{
 	background-image:url("img/r.png");
 }
+.bg-lanterns{
+	background-image:url('img/lanterns.jpg');
+}
 .bg-ray{
 	background-image:url('img/ray.png');
 }
