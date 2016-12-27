@@ -210,15 +210,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Bloc text custom styling */
 
 #bloc-1 h1{
-	line-height: 90px;
-	font-weight: 300;
-	font-family: 'Josefin Sans';
-	font-size: 65px;
+	font-size: 58px;
 }
 #bloc-1 h2{
-	font-family: Lato;
-	font-weight: 300;
-	font-size: 42px;
+	font-weight: 100;
+	font-family: 'Josefin Sans';
+	font-size: 48px;
 }
 #welcome p{
 	font-size: 21px;
@@ -775,16 +772,6 @@ a{
 }
 .blocs-social-list-v li{
 	min-width:30px;
-}
-.mountain-hero-text{
-	font-family:"Josefin Sans";
-	font-size:60px;
-	font-weight:bold;
-	text-shadow:0px 3px 3px rgba(0,0,0,0.1);
-}
-.mountain-hero-text-sub{
-	font-family:"Josefin Sans";
-	font-size:36px;
 }
 
 /* = Colour
